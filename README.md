@@ -2,7 +2,7 @@
 //     "build": "react-scripts build",
 //     "test": "react-scripts test --env=jsdom",
 //     "eject": "react-scripts eject"
-This project was bootstrapped with 
+This project was bootstrapped with  
 ##自行查看package  
 ##替换react-script  
 
