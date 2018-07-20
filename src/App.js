@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import MainFooter from './components/MainFooter'
 import logo from '@/logo.svg';
-import './App.css';
+import './App.scss';
 
 import appRoutes from './route/appRoutes'
 
@@ -19,13 +19,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
+        <div className="App-intro">
           <Switch>
             {routeList}
             <Redirect to={{ pathname: '/home' }} />
           </Switch>
-          <MainFooter/>
-        </p>
+        </div>
+        <MainFooter />
       </div>
     );
   }

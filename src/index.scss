@@ -1,7 +1,7 @@
-@import './lib/reset';
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@import '@/lib/reset.scss';
+html,
+body,
+#root,
+.App {
+  @include rect(100%, 100%);
 }

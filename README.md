@@ -3,6 +3,9 @@
 //     "test": "react-scripts test --env=jsdom",
 //     "eject": "react-scripts eject"
 This project was bootstrapped with 
+##自行查看package
+##替换react-script
+
 [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

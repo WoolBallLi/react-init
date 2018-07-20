@@ -1,0 +1,62 @@
+@import '@/lib/reset.scss';
+.App {
+  text-align: center;
+  @include flexbox();
+  @include flex-direction(column);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  font-size: large;
+  @include flex();
+  @include rect(100%, auto);
+  @include overflow();
+}
+
+footer {
+  @include rect(100%, 0.5rem);
+  @include background-color(skyblue);
+  ul {
+    @include rect(100%, 100%);
+    @include flexbox();
+    li {
+      @include flex();
+      @include rect(auto, 100%);
+      @include flexbox();
+      @include flex-direction(column);
+      @include justify-content();
+      @include align-items();
+      a {
+        @include text-color(#333);
+        &.active {
+          @include text-color(#f66);
+        }
+      }
+    }
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
